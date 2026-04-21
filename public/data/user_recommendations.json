@@ -1,0 +1,20 @@
+[
+  {
+    "customer_id": "user_001",
+    "customer_name": "Nguyễn Văn A",
+    "segment": "Champions",
+    "recommended_items": ["item_001", "item_002", "item_003", "item_004"]
+  },
+  {
+    "customer_id": "user_002",
+    "customer_name": "Trần Thị B",
+    "segment": "New Customers",
+    "recommended_items": ["item_002", "item_005", "item_006", "item_007"]
+  },
+  {
+    "customer_id": "user_003",
+    "customer_name": "Lê Huy C",
+    "segment": "At Risk",
+    "recommended_items": ["item_001", "item_008", "item_009", "item_010"]
+  }
+]

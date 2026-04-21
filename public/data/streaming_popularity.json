@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "view_name": "dashboard_streaming_popularity",
+    "description": "Real-time product popularity scores",
+    "exported_at": "2026-04-20T20:01:55.980783",
+    "record_count": 20
+  },
+  "data": [
+    {
+      "article_id": 706016001,
+      "product_type_name": "trousers",
+      "product_group_name": "garment lower body",
+      "purchase_count": 42672,
+      "unique_buyers": 32240,
+      "popularity_score": 37456.0,
+      "total_revenue": 1382.0118305085416,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 706016002,
+      "product_type_name": "trousers",
+      "product_group_name": "garment lower body",
+      "purchase_count": 30862,
+      "unique_buyers": 25871,
+      "popularity_score": 28366.5,
+      "total_revenue": 999.6281694915447,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 372860001,
+      "product_type_name": "socks",
+      "product_group_name": "socks & tights",
+      "purchase_count": 29337,
+      "unique_buyers": 26461,
+      "popularity_score": 27899.0,
+      "total_revenue": 380.22930508475,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 610776002,
+      "product_type_name": "t-shirt",
+      "product_group_name": "garment upper body",
+      "purchase_count": 25234,
+      "unique_buyers": 22789,
+      "popularity_score": 24011.5,
+      "total_revenue": 203.80933898306063,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 759871002,
+      "product_type_name": "vest top",
+      "product_group_name": "garment upper body",
+      "purchase_count": 23799,
+      "unique_buyers": 21621,
+      "popularity_score": 22710.0,
+      "total_revenue": 133.45406779661351,
+      "last_purchase_date": "2020-09-21",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 372860002,
+      "product_type_name": "socks",
+      "product_group_name": "socks & tights",
+      "purchase_count": 22472,
+      "unique_buyers": 21379,
+      "popularity_score": 21925.5,
+      "total_revenue": 273.7656271186472,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 464297007,
+      "product_type_name": "underwear bottom",
+      "product_group_name": "underwear",
+      "purchase_count": 21782,
+      "unique_buyers": 19279,
+      "popularity_score": 20530.5,
+      "total_revenue": 352.2618305084836,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 399223001,
+      "product_type_name": "trousers",
+      "product_group_name": "garment lower body",
+      "purchase_count": 19604,
+      "unique_buyers": 17696,
+      "popularity_score": 18650.0,
+      "total_revenue": 607.2593389830371,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 610776001,
+      "product_type_name": "t-shirt",
+      "product_group_name": "garment upper body",
+      "purchase_count": 18777,
+      "unique_buyers": 18472,
+      "popularity_score": 18624.5,
+      "total_revenue": 151.49345762712426,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 720125001,
+      "product_type_name": "leggings/tights",
+      "product_group_name": "garment lower body",
+      "purchase_count": 18975,
+      "unique_buyers": 17386,
+      "popularity_score": 18180.5,
+      "total_revenue": 615.0293050847314,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 562245046,
+      "product_type_name": "trousers",
+      "product_group_name": "garment lower body",
+      "purchase_count": 17992,
+      "unique_buyers": 18253,
+      "popularity_score": 18122.5,
+      "total_revenue": 569.2069152542258,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 673677002,
+      "product_type_name": "sweater",
+      "product_group_name": "garment upper body",
+      "purchase_count": 18035,
+      "unique_buyers": 17745,
+      "popularity_score": 17890.0,
+      "total_revenue": 383.95257627119247,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 673396002,
+      "product_type_name": "belt",
+      "product_group_name": "accessories",
+      "purchase_count": 18529,
+      "unique_buyers": 16500,
+      "popularity_score": 17514.5,
+      "total_revenue": 241.2744745762726,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 706016003,
+      "product_type_name": "trousers",
+      "product_group_name": "garment lower body",
+      "purchase_count": 18638,
+      "unique_buyers": 15630,
+      "popularity_score": 17134.0,
+      "total_revenue": 606.382220338969,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 568601006,
+      "product_type_name": "blazer",
+      "product_group_name": "garment upper body",
+      "purchase_count": 16825,
+      "unique_buyers": 16277,
+      "popularity_score": 16551.0,
+      "total_revenue": 814.2092711864354,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 351484002,
+      "product_type_name": "swimwear bottom",
+      "product_group_name": "swimwear",
+      "purchase_count": 16765,
+      "unique_buyers": 15563,
+      "popularity_score": 16164.0,
+      "total_revenue": 336.38571186441504,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 399256001,
+      "product_type_name": "trousers",
+      "product_group_name": "garment lower body",
+      "purchase_count": 17874,
+      "unique_buyers": 14004,
+      "popularity_score": 15939.0,
+      "total_revenue": 287.86225423729377,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 562245001,
+      "product_type_name": "trousers",
+      "product_group_name": "garment lower body",
+      "purchase_count": 17114,
+      "unique_buyers": 14261,
+      "popularity_score": 15687.5,
+      "total_revenue": 447.39632203389556,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 608776002,
+      "product_type_name": "socks",
+      "product_group_name": "socks & tights",
+      "purchase_count": 16202,
+      "unique_buyers": 14519,
+      "popularity_score": 15360.5,
+      "total_revenue": 207.9840338983048,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    },
+    {
+      "article_id": 688537004,
+      "product_type_name": "swimwear bottom",
+      "product_group_name": "swimwear",
+      "purchase_count": 14877,
+      "unique_buyers": 15123,
+      "popularity_score": 15000.0,
+      "total_revenue": 242.35862711864704,
+      "last_purchase_date": "2020-09-22",
+      "updated_at": "2026-04-20 19:49:44.550000"
+    }
+  ]
+}

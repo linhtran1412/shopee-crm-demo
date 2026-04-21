@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "view_name": "dashboard_rfm_distribution",
+    "description": "Customer segmentation by RFM scores",
+    "exported_at": "2026-04-20T20:01:49.766136",
+    "record_count": 6
+  },
+  "data": [
+    {
+      "customer_segment": "Champions",
+      "customer_count": 350317,
+      "avg_rfm_score": 13.801756694650845,
+      "percentage": 25.72
+    },
+    {
+      "customer_segment": "Lost Customers",
+      "customer_count": 338078,
+      "avg_rfm_score": 4.3982039647655276,
+      "percentage": 24.82
+    },
+    {
+      "customer_segment": "Loyal Customers",
+      "customer_count": 244993,
+      "avg_rfm_score": 10.811288485793472,
+      "percentage": 17.98
+    },
+    {
+      "customer_segment": "At Risk",
+      "customer_count": 208192,
+      "avg_rfm_score": 8.43284564248386,
+      "percentage": 15.28
+    },
+    {
+      "customer_segment": "Potential Loyalists",
+      "customer_count": 131565,
+      "avg_rfm_score": 6.709322388173146,
+      "percentage": 9.66
+    },
+    {
+      "customer_segment": "New Customers",
+      "customer_count": 89136,
+      "avg_rfm_score": 7.614723568479627,
+      "percentage": 6.54
+    }
+  ]
+}

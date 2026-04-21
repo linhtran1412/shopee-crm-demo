@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "view_name": "dashboard_voucher_priority",
+    "description": "Voucher distribution by priority and segment",
+    "exported_at": "2026-04-20T20:01:52.176685",
+    "record_count": 19
+  },
+  "data": [
+    {
+      "final_priority": "CRITICAL",
+      "customer_segment": "Champions",
+      "customer_count": 304902
+    },
+    {
+      "final_priority": "CRITICAL",
+      "customer_segment": "Loyal Customers",
+      "customer_count": 212072
+    },
+    {
+      "final_priority": "HIGH",
+      "customer_segment": "At Risk",
+      "customer_count": 208192
+    },
+    {
+      "final_priority": "HIGH",
+      "customer_segment": "Potential Loyalists",
+      "customer_count": 583
+    },
+    {
+      "final_priority": "HIGH",
+      "customer_segment": "New Customers",
+      "customer_count": 477
+    },
+    {
+      "final_priority": "HIGH",
+      "customer_segment": "Lost Customers",
+      "customer_count": 5
+    },
+    {
+      "final_priority": "LOW",
+      "customer_segment": "Champions",
+      "customer_count": 31507
+    },
+    {
+      "final_priority": "LOW",
+      "customer_segment": "Loyal Customers",
+      "customer_count": 29842
+    },
+    {
+      "final_priority": "LOW",
+      "customer_segment": "New Customers",
+      "customer_count": 17211
+    },
+    {
+      "final_priority": "LOW",
+      "customer_segment": "Potential Loyalists",
+      "customer_count": 9157
+    },
+    {
+      "final_priority": "LOW",
+      "customer_segment": "Lost Customers",
+      "customer_count": 2
+    },
+    {
+      "final_priority": "MEDIUM",
+      "customer_segment": "Champions",
+      "customer_count": 13908
+    },
+    {
+      "final_priority": "MEDIUM",
+      "customer_segment": "Loyal Customers",
+      "customer_count": 3079
+    },
+    {
+      "final_priority": "MEDIUM",
+      "customer_segment": "Potential Loyalists",
+      "customer_count": 730
+    },
+    {
+      "final_priority": "MEDIUM",
+      "customer_segment": "New Customers",
+      "customer_count": 647
+    },
+    {
+      "final_priority": "MEDIUM",
+      "customer_segment": "Lost Customers",
+      "customer_count": 4
+    },
+    {
+      "final_priority": "SEND_NOW",
+      "customer_segment": "Lost Customers",
+      "customer_count": 147645
+    },
+    {
+      "final_priority": "SEND_NOW",
+      "customer_segment": "Potential Loyalists",
+      "customer_count": 70499
+    },
+    {
+      "final_priority": "SEND_NOW",
+      "customer_segment": "New Customers",
+      "customer_count": 31571
+    }
+  ]
+}

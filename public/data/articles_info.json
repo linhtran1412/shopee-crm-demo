@@ -1,0 +1,72 @@
+[
+  {
+    "article_id": "item_001",
+    "prod_name": "Áo Thun Basic Trắng",
+    "product_type_name": "T-shirt",
+    "price": "99,000đ",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "article_id": "item_002",
+    "prod_name": "Quần Jean Ống Rộng Xanh",
+    "product_type_name": "Trousers",
+    "price": "250,000đ",
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "article_id": "item_003",
+    "prod_name": "Áo Sơ Mi Hàn Quốc",
+    "product_type_name": "Shirt",
+    "price": "180,000đ",
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "article_id": "item_004",
+    "prod_name": "Váy Liền Trễ Vai",
+    "product_type_name": "Dress",
+    "price": "150,000đ",
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "article_id": "item_005",
+    "prod_name": "Áo Khoác Bomber Kaki",
+    "product_type_name": "Jacket",
+    "price": "320,000đ",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "article_id": "item_006",
+    "prod_name": "Giày Sneaker Thể Thao",
+    "product_type_name": "Shoes",
+    "price": "450,000đ",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "article_id": "item_007",
+    "prod_name": "Nón Kết Trơn Đen",
+    "product_type_name": "Accessories",
+    "price": "50,000đ",
+    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "article_id": "item_008",
+    "prod_name": "Quần Short Thể Thao",
+    "product_type_name": "Shorts",
+    "price": "120,000đ",
+    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "article_id": "item_009",
+    "prod_name": "Balo Canvas Mini",
+    "product_type_name": "Bag",
+    "price": "190,000đ",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "article_id": "item_010",
+    "prod_name": "Áo Hoodie Dày Dặn",
+    "product_type_name": "Hoodie",
+    "price": "220,000đ",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=300&q=80"
+  }
+]

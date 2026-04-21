@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "view_name": "dashboard_top_products",
+    "description": "Top 20 most recommended products",
+    "exported_at": "2026-04-20T20:01:50.783243",
+    "record_count": 10
+  },
+  "data": [
+    {
+      "article_id": 610776002,
+      "product_type_name": "t-shirt",
+      "product_group_name": "garment upper body",
+      "recommendation_count": 112
+    },
+    {
+      "article_id": 562245001,
+      "product_type_name": "trousers",
+      "product_group_name": "garment lower body",
+      "recommendation_count": 109
+    },
+    {
+      "article_id": 706016001,
+      "product_type_name": "trousers",
+      "product_group_name": "garment lower body",
+      "recommendation_count": 98
+    },
+    {
+      "article_id": 573716012,
+      "product_type_name": "trousers",
+      "product_group_name": "garment lower body",
+      "recommendation_count": 74
+    },
+    {
+      "article_id": 372860001,
+      "product_type_name": "socks",
+      "product_group_name": "socks & tights",
+      "recommendation_count": 64
+    },
+    {
+      "article_id": 684209004,
+      "product_type_name": "bikini top",
+      "product_group_name": "swimwear",
+      "recommendation_count": 59
+    },
+    {
+      "article_id": 706016006,
+      "product_type_name": "trousers",
+      "product_group_name": "garment lower body",
+      "recommendation_count": 56
+    },
+    {
+      "article_id": 762846001,
+      "product_type_name": "shirt",
+      "product_group_name": "garment upper body",
+      "recommendation_count": 55
+    },
+    {
+      "article_id": 759871001,
+      "product_type_name": "vest top",
+      "product_group_name": "garment upper body",
+      "recommendation_count": 54
+    },
+    {
+      "article_id": 684209012,
+      "product_type_name": "bikini top",
+      "product_group_name": "swimwear",
+      "recommendation_count": 54
+    }
+  ]
+}

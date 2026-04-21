@@ -1,0 +1,8 @@
+[
+  {"customer_segment": "Champions", "count": 15000},
+  {"customer_segment": "Loyal Customers", "count": 35000},
+  {"customer_segment": "Potential Loyalists", "count": 42000},
+  {"customer_segment": "New Customers", "count": 28000},
+  {"customer_segment": "At Risk", "count": 18000},
+  {"customer_segment": "Lost Customers", "count": 12000}
+]

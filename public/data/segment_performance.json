@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "view_name": "dashboard_segment_performance",
+    "description": "Performance metrics by customer segment",
+    "exported_at": "2026-04-20T20:01:54.767120",
+    "record_count": 6
+  },
+  "data": [
+    {
+      "customer_segment": "Champions",
+      "total_users": 350317,
+      "users_with_recs": 3858,
+      "users_with_voucher": 350317,
+      "avg_rfm_score": 13.801756694650845,
+      "rec_coverage_pct": 1.1,
+      "voucher_coverage_pct": 100.0
+    },
+    {
+      "customer_segment": "Loyal Customers",
+      "total_users": 244993,
+      "users_with_recs": 1087,
+      "users_with_voucher": 244993,
+      "avg_rfm_score": 10.811288485793472,
+      "rec_coverage_pct": 0.44,
+      "voucher_coverage_pct": 100.0
+    },
+    {
+      "customer_segment": "At Risk",
+      "total_users": 208192,
+      "users_with_recs": 708,
+      "users_with_voucher": 208192,
+      "avg_rfm_score": 8.43284564248386,
+      "rec_coverage_pct": 0.34,
+      "voucher_coverage_pct": 100.0
+    },
+    {
+      "customer_segment": "New Customers",
+      "total_users": 89136,
+      "users_with_recs": 23,
+      "users_with_voucher": 49906,
+      "avg_rfm_score": 7.614723568479627,
+      "rec_coverage_pct": 0.03,
+      "voucher_coverage_pct": 55.99
+    },
+    {
+      "customer_segment": "Potential Loyalists",
+      "total_users": 131565,
+      "users_with_recs": 111,
+      "users_with_voucher": 80969,
+      "avg_rfm_score": 6.709322388173146,
+      "rec_coverage_pct": 0.08,
+      "voucher_coverage_pct": 61.54
+    },
+    {
+      "customer_segment": "Lost Customers",
+      "total_users": 338078,
+      "users_with_recs": 206,
+      "users_with_voucher": 147656,
+      "avg_rfm_score": 4.3982039647655276,
+      "rec_coverage_pct": 0.06,
+      "voucher_coverage_pct": 43.68
+    }
+  ]
+}

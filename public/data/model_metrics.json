@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "view_name": "dashboard_model_metrics",
+    "description": "Recommendation model performance metrics",
+    "exported_at": "2026-04-20T20:01:51.319704",
+    "record_count": 10
+  },
+  "data": [
+    {
+      "metric_name": "Precision@10",
+      "value": 0.48,
+      "unit": "%",
+      "category": "Accuracy"
+    },
+    {
+      "metric_name": "Recall@10",
+      "value": 1.06,
+      "unit": "%",
+      "category": "Accuracy"
+    },
+    {
+      "metric_name": "Hit Rate@10",
+      "value": 4.31,
+      "unit": "%",
+      "category": "Accuracy"
+    },
+    {
+      "metric_name": "F1-Score",
+      "value": 0.66,
+      "unit": "%",
+      "category": "Accuracy"
+    },
+    {
+      "metric_name": "User Coverage",
+      "value": 87.64,
+      "unit": "%",
+      "category": "Coverage"
+    },
+    {
+      "metric_name": "Item Coverage",
+      "value": 10.86,
+      "unit": "%",
+      "category": "Coverage"
+    },
+    {
+      "metric_name": "Diversity",
+      "value": 0.0951,
+      "unit": "%",
+      "category": "Quality"
+    },
+    {
+      "metric_name": "Popularity Bias",
+      "value": 100.0,
+      "unit": "%",
+      "category": "Quality"
+    },
+    {
+      "metric_name": "Overall Score",
+      "value": 63.0,
+      "unit": "/100",
+      "category": "Overall"
+    },
+    {
+      "metric_name": "vs Baseline",
+      "value": 27.9,
+      "unit": "% better",
+      "category": "Comparison"
+    }
+  ]
+}

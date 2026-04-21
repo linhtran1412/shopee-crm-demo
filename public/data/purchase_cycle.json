@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "view_name": "dashboard_purchase_cycle",
+    "description": "Customer purchase cycle distribution",
+    "exported_at": "2026-04-20T20:01:52.950242",
+    "record_count": 5
+  },
+  "data": [
+    {
+      "cycle_range": "1-2 months",
+      "user_count": 170439
+    },
+    {
+      "cycle_range": "1-2 weeks",
+      "user_count": 196917
+    },
+    {
+      "cycle_range": "2-4 weeks",
+      "user_count": 279668
+    },
+    {
+      "cycle_range": "< 1 week",
+      "user_count": 337812
+    },
+    {
+      "cycle_range": "> 2 months",
+      "user_count": 97197
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "api_version": "1.0",
+  "generated_at": "2026-04-20T20:01:56.391914",
+  "endpoints": [
+    {
+      "name": "rfm_distribution",
+      "file": "rfm_distribution.json",
+      "description": "Customer segmentation by RFM scores",
+      "chart_type": "donut"
+    },
+    {
+      "name": "top_products",
+      "file": "top_products.json",
+      "description": "Top 20 recommended products",
+      "chart_type": "horizontal_bar"
+    },
+    {
+      "name": "model_metrics",
+      "file": "model_metrics.json",
+      "description": "Model performance metrics",
+      "chart_type": "multi_chart"
+    },
+    {
+      "name": "voucher_priority",
+      "file": "voucher_priority.json",
+      "description": "Voucher distribution by priority",
+      "chart_type": "stacked_bar"
+    },
+    {
+      "name": "purchase_cycle",
+      "file": "purchase_cycle.json",
+      "description": "Purchase cycle distribution",
+      "chart_type": "histogram"
+    },
+    {
+      "name": "segment_performance",
+      "file": "segment_performance.json",
+      "description": "Segment performance comparison",
+      "chart_type": "grouped_bar"
+    },
+    {
+      "name": "streaming_popularity",
+      "file": "streaming_popularity.json",
+      "description": "Real-time product popularity",
+      "chart_type": "horizontal_bar"
+    }
+  ],
+  "total_endpoints": 7
+}
