@@ -196,16 +196,26 @@ export default function ShopeeDemo() {
     if (selectedCartIndices.size === cartItems.length) {
       setSelectedCartIndices(new Set());
     } else {
-      setSelectedCartIndices(new Set(cartItems.map((_, i) => i)));
+      setSelectedCartIndices(new Set(cartItems.map((_, idx) => idx)));
     }
   };
 
   const handleCartCheckout = () => {
     if (selectedCartIndices.size === 0) return;
-    const selected = cartItems.filter((_, i) => selectedCartIndices.has(i));
+    const selected = cartItems.filter((_, idx) => selectedCartIndices.has(idx));
     setCheckoutItems(selected);
     setShowCart(false);
     setShowCheckout(true);
+  };
+
+  const addToCart = (name: string, a: any) => {
+    const newItem = { product: a, qty: 1, color: "Đen", size: "L" };
+    setCartItems(prev => [...prev, newItem]);
+    setCartCount(c => c + 1);
+    setCartFlash(name);
+    setTimeout(() => setCartFlash(null), 2500);
+    setProcessing(true);
+    setTimeout(() => { setProcessing(false); setShowVoucher(true); setVoucherClaimed(false); setTimeout(() => setShowVoucher(false), 12000); }, 1800);
   };
 
   const handleClaimVoucher = () => {
@@ -953,7 +963,7 @@ export default function ShopeeDemo() {
                                 <span className="text-3xl text-[#ee4d2d] font-medium">₫{Math.max(0, total).toLocaleString()}</span>
                               </div>
                               <div className="flex items-center justify-between gap-4 mt-6">
-                                <span className="text-xs text-slate-500 w-1/2">Nhấn "Đặt hàng" đồng nghĩa với việc bạn đồng ý tuân theo Điều khoản Shopee.</span>
+                                <span className="text-xs text-slate-500 w-1/2">Nhấn &quot;Đặt hàng&quot; đồng nghĩa với việc bạn đồng ý tuân theo Điều khoản Shopee.</span>
                                 <button onClick={() => {
                                   const newOrder = {
                                     id: "ORD-" + Math.floor(Math.random() * 1000000),
@@ -966,7 +976,10 @@ export default function ShopeeDemo() {
                                   setOrders([newOrder, ...orders]);
                                   // Remove purchased items from cart
                                   setCartItems(prev => prev.filter(item => !checkoutItems.includes(item)));
-                                  setCartCount(prev => prev - checkoutItems.reduce((acc, item) => acc + item.qty, 0));
+                                  setCartCount(prev => {
+                                    const removedCount = checkoutItems.reduce((acc, itm) => acc + itm.qty, 0);
+                                    return prev - removedCount;
+                                  });
                                   setCheckoutSuccess(true);
                                 }} className="flex-1 bg-[#ee4d2d] text-white py-3.5 rounded-sm text-lg font-medium shadow-md hover:bg-[#d44226] transition-colors">
                                   Đặt Hàng
@@ -1024,7 +1037,8 @@ export default function ShopeeDemo() {
                           <div key={i} className="grid grid-cols-12 items-center p-4 border-b border-slate-50 last:border-0 hover:bg-slate-50/30 transition-colors">
                             <div className="col-span-6 flex items-center gap-4">
                               <input type="checkbox" checked={selectedCartIndices.has(i)} onChange={() => toggleSelectCartItem(i)} className="w-4 h-4 accent-[#ee4d2d]" />
-                              <img src={item.product.image || item.product.img} className="w-20 h-20 object-cover border border-slate-100 rounded-sm" alt=""/>
+                              {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img src={item.product.image || item.product.img} className="w-20 h-20 object-cover border border-slate-100 rounded-sm" alt=""/>
                               <div>
                                 <div className="text-slate-800 text-sm line-clamp-2">{item.product.prod_name || item.product.name}</div>
                                 <div className="text-slate-400 text-xs mt-1">Phân loại: {item.color}, {item.size}</div>
@@ -1055,8 +1069,11 @@ export default function ShopeeDemo() {
                         <span className="text-sm text-slate-700">Chọn Tất Cả ({cartItems.length})</span>
                       </div>
                       <button onClick={() => {
-                        setCartItems(prev => prev.filter((_, i) => !selectedCartIndices.has(i)));
-                        setCartCount(prev => prev - cartItems.filter((_, i) => selectedCartIndices.has(i)).reduce((acc, item) => acc + item.qty, 0));
+                        setCartItems(prev => prev.filter((_, idx) => !selectedCartIndices.has(idx)));
+                        setCartCount(prev => {
+                          const removed = cartItems.filter((_, idx) => selectedCartIndices.has(idx)).reduce((acc, item) => acc + item.qty, 0);
+                          return prev - removed;
+                        });
                         setSelectedCartIndices(new Set());
                       }} className="text-sm text-slate-700 hover:text-[#ee4d2d] transition-colors">Xóa Mục Đã Chọn</button>
                     </div>
@@ -1066,7 +1083,7 @@ export default function ShopeeDemo() {
                         <div className="text-slate-800">Tổng thanh toán ({selectedCartIndices.size} sản phẩm):</div>
                         <div className="text-2xl text-[#ee4d2d] font-medium">₫{
                           cartItems
-                            .filter((_, i) => selectedCartIndices.has(i))
+                            .filter((_, idx) => selectedCartIndices.has(idx))
                             .reduce((acc, item) => acc + parseInt((item.product.price || "0").replace(/\D/g, '')) * item.qty, 0)
                             .toLocaleString()
                         }</div>
@@ -1132,6 +1149,7 @@ export default function ShopeeDemo() {
                       <div className="p-4 flex flex-col gap-3 border-b border-slate-100">
                         {order.items.map((item: any, i: number) => (
                           <div key={i} className="flex gap-4">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img src={item.product.image || item.product.img} className="w-20 h-20 object-cover border border-slate-200" alt="" />
                             <div className="flex-1">
                               <div className="text-slate-800 font-medium">{item.product.prod_name || item.product.name}</div>

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement, Title } from "chart.js";
 import { Doughnut, Bar } from "react-chartjs-2";
 import { motion } from "framer-motion";
-import { Users, TrendingUp, AlertCircle, Zap, Award } from "lucide-react";
+import { Users, AlertCircle, Zap, Award } from "lucide-react";
 
 ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement, Title);
 
@@ -54,7 +54,7 @@ export default function Dashboard() {
 
   const barData = {
     labels: topProducts.map(p => `#${p.article_id}`),
-    datasets: [{ label: "Lượt gợi ý", data: topProducts.map(p => p.recommendation_count), backgroundColor: topProducts.map((_, i) => i === 0 ? "#ee4d2d" : i === 1 ? "#ff7337" : i === 2 ? "#facc15" : "#94a3b8"), borderRadius: 6 }],
+    datasets: [{ label: "Lượt gợi ý", data: topProducts.map(p => p.recommendation_count), backgroundColor: topProducts.map((_, idx) => idx === 0 ? "#ee4d2d" : idx === 1 ? "#ff7337" : idx === 2 ? "#facc15" : "#94a3b8"), borderRadius: 6 }],
   };
 
   if (loading) return (
@@ -87,7 +87,7 @@ export default function Dashboard() {
           { label: "Champions 🏆", value: champions?.customer_count.toLocaleString() || "0", icon: Award, color: "text-[#ee4d2d]", bg: "bg-[#ee4d2d]/10" },
           { label: "At Risk ⚠️", value: atRisk?.customer_count.toLocaleString() || "0", icon: AlertCircle, color: "text-yellow-600", bg: "bg-yellow-50" },
           { label: "Cần Voucher Gấp ⚡", value: critical.toLocaleString(), icon: Zap, color: "text-purple-500", bg: "bg-purple-50" },
-        ].map((c, i) => (
+        ].map((c) => (
           <motion.div key={c.label} whileHover={{ y: -4 }} className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 flex items-center gap-4">
             <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${c.bg}`}>
               <c.icon className={`w-6 h-6 ${c.color}`} />
